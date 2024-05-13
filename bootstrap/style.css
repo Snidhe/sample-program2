@@ -1,0 +1,1154 @@
+.navimg{
+    position: relative;
+}
+
+
+.nav-link{
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: black !important;
+
+}
+
+.nav-link:hover{
+    color: gray !important;
+}
+
+.navtext{
+    color: rgb(14, 200, 132);
+}
+.navbutton{
+    background-color: rgba(21, 192, 192, 0.832) !important;
+    color: white !important;
+}
+.navbutton:hover{
+    background-color: rgba(41, 213, 213, 0.832) !important;
+}
+
+
+.blackbutton:hover{
+    background-color: gray !important;
+}
+.divbutton:hover{
+    background-color: rgba(110, 206, 206, 0.832) !important;
+
+}
+
+.transcard{
+    border-radius: 15px;
+
+    color: white !important;
+    background-color: rgba(128, 128, 128, 0.559);
+}
+.infocard{
+    border-radius: 15px;
+    color: white !important;
+
+    background-color: rgba(21, 192, 192, 0.832) !important;
+}
+
+.endalign{
+    text-align: end;
+}
+
+.infotext{
+color: rgba(21, 192, 192, 0.832) !important;
+}
+
+
+.cardimg{
+    border-top-right-radius: 15px !important;
+    border-top-left-radius: 15px !important;
+
+}
+
+
+.scrollmenu{
+    overflow-x: scroll;
+    scrollbar-width: none!important;
+    white-space: nowrap !important;
+  }
+
+
+.btnarrow {
+    font-weight: 500;
+        
+    color: white;
+    text-align: center;
+    padding:.5rem .7rem !important;
+    border: 2px solid white;
+background-color: rgb(164, 172, 172);
+    
+    border-radius: 30px !important;
+    margin: 10px;
+
+}
+
+
+.gallery{
+    scrollbar-width: none;
+    display: flex;
+    overflow-x: scroll;
+}
+
+
+
+@media(min-width:275px) and (max-width:564px){
+    .imgscroll{
+        height: 50vh;
+    }
+    .cardtext{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .circle-icon {
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+    
+        padding:30px;
+        border-radius: 50%;
+    }
+    .card-icon {
+        border: none;
+        position: relative;
+        min-height: 100px;
+        min-width: 100px;
+        margin: 55px;
+    }
+    .iconcard{
+        width: 50px !important;
+        height: 500px !important;
+        padding-top: 20px;
+    
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+        font-size: 50px;
+        border-radius: 60px;
+    }
+    .infobody{
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    
+    .iconcardouter{
+        width: 50px !important;
+        height: 50px !important;
+     
+    }
+    .imgcard{
+        width: 144px !important;
+        right:10px;
+        top: 104px;
+        position: absolute;
+    }
+    .bluecard{
+        border-radius: 15px;
+        width: 280px;
+        background-color: rgba(37, 37, 185, 0.81);
+    }
+    .homediv{
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .blackbutton{
+        font-size: 15px;
+       
+       background-color: black !important;
+        color: white !important;
+        
+    }
+    .largefont{
+        font-weight: 700;
+        font-size: 15px !important;
+    }
+    .whitesection{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        
+    padding-top:80px !important;
+    }
+    .navbar-brand{
+        font-size: 20px;
+        font-weight: 600;
+        color: black !important
+    }
+    .divbutton{
+        font-size: 10px;
+    
+    
+     background-color: rgba(21, 192, 192, 0.832) !important;
+     color: white !important;
+    
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 10px;
+        
+    }
+    .imgtext {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        position: absolute;
+        top:100px !important;
+        width: 178px;
+        left: 10px;
+        color: white !important;
+    }
+    .hometext{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .navv{
+        z-index: 2000;
+        background-color: white !important;
+        margin-left: 10px !important;
+    margin-right: 10px !important;
+     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    
+       
+    }
+
+}
+@media(min-width:565px) and (max-width:768px){
+    .imgscroll{
+        height: 50vh;
+    }
+    .cardtext{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .circle-icon {
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+    
+        padding:30px;
+        border-radius: 50%;
+    }
+    .card-icon {
+        border: none;
+        position: relative;
+        min-height: 100px;
+        min-width: 100px;
+        margin: 55px;
+    }
+    .iconcard{
+        width: 120px !important;
+        height: 120px !important;
+        padding-top: 20px;
+    
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+        font-size: 50px;
+        border-radius: 60px;
+    }
+    .infobody{
+        margin-left: 70px;
+        margin-right: 70px;
+    
+    }
+    
+    .iconcardouter{
+        width: 120px !important;
+        height: 120px !important;
+     
+    }
+    .imgcard{
+        width: 700px !important;
+        right: 200px ;
+        top: 600px;
+        position: absolute;
+    }
+    .bluecard{
+        border-radius: 15px;
+        width: 600px;
+        background-color: rgba(37, 37, 185, 0.81);
+    }
+    .homediv{
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .blackbutton{
+        font-size: 20px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 12px;
+        padding-bottom: 12px;
+       
+       background-color: black !important;
+        color: white !important;
+        
+    }
+    .largefont{
+        font-weight: 700;
+        font-size: 45px !important;
+    }
+    .whitesection{
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+        
+    padding-top:80px !important;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 600;
+        color: black !important
+    }
+    .divbutton{
+        font-size: 20px;
+     padding-left: 40px !important;
+     padding-right: 40px !important;
+     padding-top: 12px;
+     padding-bottom: 12px;
+    
+    
+     background-color: rgba(21, 192, 192, 0.832) !important;
+     color: white !important;
+    
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 15px;
+        
+    }
+    .imgtext {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        position: absolute;
+        top: 66px !important;
+        width: 150px;
+        left: 10px;
+        color: white !important;
+    }
+    .hometext{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .navv{
+        margin-left: 10px !important;
+    margin-right: 10px !important;
+    
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 5px solid rgb(14, 200, 132);
+    
+       
+    }
+    
+}
+@media(min-width:769px) and (max-width:1024px){
+    .imgscroll{
+        height: 100vh;
+    }
+    .cardtext{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .circle-icon {
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+    
+        padding:50px;
+        border-radius: 50%;
+    }
+    .card-icon {
+        border: none;
+        position: relative;
+        min-height: 100px;
+        min-width: 100px;
+        margin: 55px;
+    }
+    
+    .iconcard{
+        width: 120px !important;
+        height: 120px !important;
+        padding-top: 20px;
+    
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+        font-size: 50px;
+        border-radius: 60px;
+    }
+    .infobody{
+        margin-left: 70px;
+        margin-right: 70px;
+    
+    }
+    
+    .iconcardouter{
+        width: 120px !important;
+        height: 120px !important;
+     
+    }
+    .imgcard{
+        width: 700px !important;
+        right: 200px ;
+        top: 600px;
+        position: absolute;
+    }
+    .bluecard{
+        border-radius: 15px;
+        width: 600px;
+        background-color: rgba(37, 37, 185, 0.81);
+    }
+    .homediv{
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .blackbutton{
+        font-size: 20px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 12px;
+        padding-bottom: 12px;
+       
+       background-color: black !important;
+        color: white !important;
+        
+    }
+    .largefont{
+        font-weight: 700;
+        font-size: 45px !important;
+    }
+    .whitesection{
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+        
+    padding-top:80px !important;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 600;
+        color: black !important
+    }
+    .divbutton{
+        font-size: 20px;
+     padding-left: 40px !important;
+     padding-right: 40px !important;
+     padding-top: 12px;
+     padding-bottom: 12px;
+    
+    
+     background-color: rgba(21, 192, 192, 0.832) !important;
+     color: white !important;
+    
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 18px;
+        
+    }
+    .imgtext {
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        position: absolute;
+        top: 66px !important;
+        width: 150px;
+        left: 10px;
+        color: white !important;
+    }
+    .hometext{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .navv{
+        margin-left: 20px !important;
+    margin-right: 20px !important;
+    
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 5px solid rgb(14, 200, 132);
+    
+       
+    }
+    
+}
+@media(min-width:1025px) and (max-width:1366px){
+    .imgscroll{
+        height: 100vh;
+    }
+    .cardtext{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .circle-icon {
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+    
+        padding:50px;
+        border-radius: 50%;
+    }
+    .card-icon {
+        border: none;
+        position: relative;
+        min-height: 100px;
+        min-width: 100px;
+        margin: 55px;
+    }
+    .iconcard{
+        width: 120px !important;
+        height: 120px !important;
+        padding-top: 20px;
+    
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+        font-size: 50px;
+        border-radius: 60px;
+    }
+    .infobody{
+        margin-left: 70px;
+        margin-right: 70px;
+    
+    }
+    
+    .iconcardouter{
+        width: 120px !important;
+        height: 120px !important;
+     
+    }
+    .imgcard{
+        width: 700px !important;
+        right: 200px ;
+        top: 600px;
+        position: absolute;
+    }
+    .bluecard{
+        border-radius: 15px;
+        width: 600px;
+        background-color: rgba(37, 37, 185, 0.81);
+    }
+    .homediv{
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .blackbutton{
+        font-size: 20px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 12px;
+        padding-bottom: 12px;
+       
+       background-color: black !important;
+        color: white !important;
+        
+    }
+    .largefont{
+        font-weight: 700;
+        font-size: 45px !important;
+    }
+    .whitesection{
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+        
+    padding-top:80px !important;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 600;
+        color: black !important
+    }
+    .divbutton{
+        font-size: 20px;
+     padding-left: 40px !important;
+     padding-right: 40px !important;
+     padding-top: 12px;
+     padding-bottom: 12px;
+    
+    
+     background-color: rgba(21, 192, 192, 0.832) !important;
+     color: white !important;
+    
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 18px;
+        
+    }
+    .imgtext{
+        margin-left: 70px !important;
+    margin-right: 70px !important;
+    
+    
+        position: absolute;
+        top: 300px !important;
+        width: 600px;
+        left: 10px;
+        color: white !important;
+    
+    }
+    .hometext{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .navv{
+        margin-left: 30px !important;
+    margin-right: 30px !important;
+    
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 5px solid rgb(14, 200, 132);
+    
+       
+    }
+    
+}
+@media(min-width:1367px) and (max-width:1600px){
+    .imgscroll{
+        height: 100vh;
+    }
+    .cardtext{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .circle-icon {
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+    
+        padding:50px;
+        border-radius: 50%;
+    }
+    .card-icon {
+        border: none;
+        position: relative;
+        min-height: 100px;
+        min-width: 100px;
+        margin: 55px;
+    }
+    .iconcard{
+        width: 120px !important;
+        height: 120px !important;
+        padding-top: 20px;
+    
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+        font-size: 50px;
+        border-radius: 60px;
+    }
+    .infobody{
+        margin-left: 70px;
+        margin-right: 70px;
+    
+    }
+    
+    .iconcardouter{
+        width: 120px !important;
+        height: 120px !important;
+     
+    }
+    .imgcard{
+        width: 700px !important;
+        right: 200px ;
+        top: 600px;
+        position: absolute;
+    }
+    .bluecard{
+        border-radius: 15px;
+        width: 600px;
+        background-color: rgba(37, 37, 185, 0.81);
+    }
+    .homediv{
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .blackbutton{
+        font-size: 20px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 12px;
+        padding-bottom: 12px;
+       
+       background-color: black !important;
+        color: white !important;
+        
+    }
+    .largefont{
+        font-weight: 700;
+        font-size: 45px !important;
+    }
+    .whitesection{
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+        
+    padding-top:80px !important;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 600;
+        color: black !important
+    }
+    .divbutton{
+        font-size: 20px;
+     padding-left: 40px !important;
+     padding-right: 40px !important;
+     padding-top: 12px;
+     padding-bottom: 12px;
+    
+    
+     background-color: rgba(21, 192, 192, 0.832) !important;
+     color: white !important;
+    
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 20px;
+        
+    }
+    .imgtext{
+        margin-left: 70px !important;
+    margin-right: 70px !important;
+    
+    
+        position: absolute;
+        top: 300px !important;
+        width: 600px;
+        left: 10px;
+        color: white !important;
+    
+    }
+    .hometext{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .navv{
+        margin-left: 40px !important;
+    margin-right: 40px !important;
+    
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 5px solid rgb(14, 200, 132);
+    
+       
+    }
+    
+}
+@media(min-width:1601px) and (max-width:1920px){
+    .imgscroll{
+        width: 100%;
+    }
+    .cardtext{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .circle-icon {
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+    
+        padding:50px;
+        border-radius: 50%;
+    }
+    .card-icon {
+        border: none;
+        position: relative;
+        min-height: 100px;
+        min-width: 100px;
+        margin: 55px;
+    }
+    
+    .iconcard{
+        width: 120px !important;
+        height: 120px !important;
+        padding-top: 20px;
+    
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+        font-size: 50px;
+        border-radius: 60px;
+    }
+    .infobody{
+        margin-left: 70px;
+        margin-right: 70px;
+    
+    }
+    
+    .iconcardouter{
+        width: 120px !important;
+        height: 120px !important;
+     
+    }
+    .imgcard{
+        width: 700px !important;
+        right: 200px ;
+        top: 600px;
+        position: absolute;
+    }
+    .bluecard{
+        border-radius: 15px;
+        width: 600px;
+        background-color: rgba(37, 37, 185, 0.81);
+    }
+    .homediv{
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .blackbutton{
+        font-size: 20px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 12px;
+        padding-bottom: 12px;
+       
+       background-color: black !important;
+        color: white !important;
+        
+    }
+    .largefont{
+        font-weight: 700;
+        font-size: 45px !important;
+    }
+    .whitesection{
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+        
+    padding-top:80px !important;
+    padding-bottom:80px !important;
+
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 600;
+        color: black !important
+    }
+    .divbutton{
+        font-size: 20px;
+     padding-left: 40px !important;
+     padding-right: 40px !important;
+     padding-top: 12px;
+     padding-bottom: 12px;
+    
+    
+     background-color: rgba(21, 192, 192, 0.832) !important;
+     color: white !important;
+    
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 20px;
+        
+    }
+    .imgtext{
+        margin-left: 70px !important;
+    margin-right: 70px !important;
+    
+    
+        position: absolute;
+        top: 300px !important;
+        width: 600px;
+        left: 10px;
+        color: white !important;
+    
+    }
+    .hometext{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .navv{
+        margin-left: 70px !important;
+    margin-right: 70px !important;
+    
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 5px solid rgb(14, 200, 132);
+    
+       
+    }
+    
+}
+@media(min-width:1921px) and (max-width:2000px){
+    .imgscroll{
+        width: 100%;
+    }
+    .cardtext{
+        font-size: 32px;
+        font-weight: 600;
+    }
+    .circle-icon {
+        background-color: rgba(58, 189, 150, 0.377);
+        color: rgb(19, 168, 88);
+    
+        padding:50px;
+        border-radius: 50%;
+    }
+    .card-icon {
+        border: none;
+        position: relative;
+        min-height: 100px;
+        min-width: 100px;
+        margin: 55px;
+    }
+    .homediv{
+        margin-left: 50px;
+        margin-right: 50px;
+    
+    }
+    .arrowdiv{
+        background-color: rgb(254, 254, 254);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    
+    
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .arrowtrans{
+        background-color: rgba(254, 254, 254, 0.176);
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+    border: 1px solid white !important;
+        border-radius: 20px;
+        cursor: pointer;
+     
+    }
+    .blackbutton{
+        font-size: 20px;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+        padding-top: 12px;
+        padding-bottom: 12px;
+       
+       background-color: black !important;
+        color: white !important;
+        
+    }
+    .largefont{
+        font-weight: 700;
+        font-size: 45px !important;
+    }
+    .whitesection{
+        margin-left: 70px !important;
+        margin-right: 70px !important;
+        
+    padding-top:80px !important;
+    }
+    .navbar-brand{
+        font-size: 30px;
+        font-weight: 600;
+        color: black !important
+    }
+    .divbutton{
+        font-size: 20px;
+     padding-left: 40px !important;
+     padding-right: 40px !important;
+     padding-top: 12px;
+     padding-bottom: 12px;
+    
+    
+     background-color: rgba(21, 192, 192, 0.832) !important;
+     color: white !important;
+    
+    }
+    .paragraph{
+        text-align: justify;
+        font-size: 20px;
+        
+    }
+    .imgtext{
+        margin-left: 70px !important;
+    margin-right: 70px !important;
+    
+    
+        position: absolute;
+        top: 300px !important;
+        width: 600px;
+        left: 10px;
+        color: white !important;
+    
+    }
+    .hometext{
+        font-size: 60px;
+        font-weight: 600;
+    }
+    .navv{
+        margin-left: 70px !important;
+    margin-right: 70px !important;
+    
+        position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    border-bottom: 5px solid rgb(14, 200, 132);
+    
+       
+    }
+}
+.scrollimg{
+    width: auto;
+    overflow-y: scroll;
+}
